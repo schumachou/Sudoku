@@ -17,4 +17,4 @@ To run the JUnit test with maven, just using the command below:
 	mvn test
 
 It should show the result like:
-	Tests run: 4, Failures: 3, Errors: 0, Skipped: 0
+	Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
