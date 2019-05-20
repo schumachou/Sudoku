@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="3" name="com.svit.SudokuTest" time="0.057" errors="0" skipped="0">
+<testsuite tests="4" failures="3" name="com.svit.SudokuTest" time="0.013" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib"/>
@@ -64,8 +64,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.svit.SudokuTest" name="testValidator1" time="0.048"/>
-  <testcase classname="com.svit.SudokuTest" name="testValidator2" time="0.008">
+  <testcase classname="com.svit.SudokuTest" name="testValidator1" time="0.007"/>
+  <testcase classname="com.svit.SudokuTest" name="testValidator2" time="0.004">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -139,7 +139,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="com.svit.SudokuTest" name="testValidator4" time="0">
+  <testcase classname="com.svit.SudokuTest" name="testValidator4" time="0.001">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)

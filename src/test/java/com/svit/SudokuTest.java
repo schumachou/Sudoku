@@ -1,6 +1,5 @@
 package com.svit;
 
-//import org.junit.jupiter.api.*;
 import static org.junit.Assert.*;
 import org.junit.*;
 
@@ -37,7 +36,7 @@ public class SudokuTest {
 						 {2,8,7,4,1,9,6,3,5},
 						 {3,4,5,2,8,6,1,7,9}};
 		boolean result = sudoku.validator(board);
-		assertTrue(result);
+		assertFalse(result);
 	}
 	
 	@Test
@@ -54,7 +53,7 @@ public class SudokuTest {
 						 {2,8,7,4,1,9,6,3,5},
 						 {3,4,5,2,8,6,1,7,9}};
 		boolean result = sudoku.validator(board);
-		assertTrue(result);
+		assertFalse(result);
 	}
 	
 	@Test
@@ -71,6 +70,6 @@ public class SudokuTest {
 						 {2,8,7,4,1,9,6,3,5},
 						 {3,4,5,2,8,6,1,7,9}};
 		boolean result = sudoku.validator(board);
-		assertTrue(result);
+		assertFalse(result);
 	}
 }

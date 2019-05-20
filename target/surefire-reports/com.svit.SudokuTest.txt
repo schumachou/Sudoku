@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.svit.SudokuTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.143 sec <<< FAILURE!
-testValidator2(com.svit.SudokuTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.098 sec <<< FAILURE!
+testValidator2(com.svit.SudokuTest)  Time elapsed: 0.004 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -74,7 +74,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testValidator4(com.svit.SudokuTest)  Time elapsed: 0 sec  <<< FAILURE!
+testValidator4(com.svit.SudokuTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
